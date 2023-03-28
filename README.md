@@ -19,7 +19,7 @@ git clone
 
 ## Compile
 
-cd reverse-proxy && sudo docker compose up -d
+cd reverse-proxy && sudo docker compose up -d <br>
 cd traefik_example && sudo docker compose up -d
 
 ## License
