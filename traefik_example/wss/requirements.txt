@@ -1,0 +1,9 @@
+###### Requirements without Version Specifiers ######`
+
+# asyncio
+# websockets
+
+###### Requirements with Version Specifiers ######`
+
+websockets==10.4
+asyncio==3.4.3

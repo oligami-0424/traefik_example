@@ -1,0 +1,15 @@
+# Dynamic Configuration
+http:
+  routers:
+    dashboard:
+      rule: Host(`oligami.ml`)&&(PathPrefix(`/api`)||PathPrefix(`/dashboard`))
+      tls:
+        certResolver: myresolver
+      service: api@internal
+      middlewares:
+        - auth
+
+  middlewares:
+    auth:
+      basicAuth:
+        usersFile: /etc/traefik/.htpasswd
