@@ -27,3 +27,11 @@ CC0に限りなく近いが、変更を何もせずに自作発言はダメで�
 
 ## Description
 [Qiita]()
+
+## http3
+This is http3 enabled.<br>
+but [This site](https://http3check.net/?host=oligami.ml) return quick is not supported.<br>
+[This site](https://http3check.net/?host=oligami.ml) return http3<br>
+[This site](https://http3.is/) is your browser enable http3<br>
+If you want more info so read https://github.com/traefik/traefik/issues/8255<br>
+About this issue is because `quick go`
