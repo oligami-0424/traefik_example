@@ -3,6 +3,7 @@
 
 # Traefik example
 これは私がTraefikを布教する際に、こんなことができるんだぞ。という目的でできる限り簡素に作ったテンプレートのようなものです。
+[実際に動いている奴（しばらくは動かす）](https://oligami.ml/traefik_example/)
 
 ## Updates
 
