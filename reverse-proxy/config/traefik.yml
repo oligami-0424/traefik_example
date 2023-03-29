@@ -28,6 +28,7 @@ entryPoints:
 
   web-secure:
     address: :443
+    http3: {}
 
   tls8081:
     address: :8081
