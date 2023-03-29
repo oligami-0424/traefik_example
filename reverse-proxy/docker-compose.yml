@@ -18,7 +18,6 @@ services:
       - ./letsencrypt:/letsencrypt
     networks:
       - traefik-net
-    tty: true
 
 networks:
   traefik-net:
