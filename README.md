@@ -15,7 +15,7 @@
 - dockerが入っている
 - htpasswdが入っている（`sudo dnf install -y httpd-tools`）
 
-git clone
+git clone https://github.com/oligami-0424/traefik_example.git
 
 ## Compile
 
